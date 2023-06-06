@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ChatGPTImage</title>
+    </head>
+    <body>
+
+        <div>
+            <input id="requesttext" type="text" placeholder="Insert text here">
+            <input id="numberofimages" type="number" placeholder="Insert number of generations">
+            <select id="size-select">
+                <option value="256x256">256x256</option>
+                <option value="512x512">512x512</option>
+                <option value="1024x1024">1024x1024</option>
+            </select>
+            <input id="buttonSender" type="button" onclick="generateImages()" value="Generate"></input>
+        </div>
+
+
+        <script src="imageRequester.js"></script> 
+    </body>
+</html>
